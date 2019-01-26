@@ -5,7 +5,10 @@ def emails():
 		if(s=='end'):
 			return
 		k=re.findall(r'[\w+\.-]+@+[\w+\.-]+',s)
-		print(k)
+		l=str(k)
+		l=l.replace("[","")
+		l=l.replace("]","")
+		print(l)
 	return
 
 
