@@ -6,7 +6,6 @@ def record():
 		a.append(i)
 	a.sort()
 	a.reverse()
-	m=len(a)
 	i=0
 	for k,v in d.items():
 		d[k]=a[i]
