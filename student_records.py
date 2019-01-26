@@ -1,9 +1,6 @@
 import ast
 def record():
 	d=ast.literal_eval(input())
-	#s=s.replace(":","=")
-	#d=dict(s)
-	
 	a=[]
 	for i in d.values():
 		a.append(i)
