@@ -8,10 +8,10 @@ Jsteg is a package for hiding data inside jpeg files, a technique known as [steg
 
 #### Installation
 
-`
+```
 $ sudo wget -O /usr/bin/jsteg https://github.com/lukechampine/jsteg/releases/download/v0.1.0/jsteg-linux-amd64
 $ sudo chmod +x /usr/bin/jsteg
 $ sudo wget -O /usr/bin/slink https://github.com/lukechampine/jsteg/releases/download/v0.2.0/slink-linux-amd64
 $ chmod +x /usr/bin/slink
-`
+```
 
